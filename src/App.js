@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { MdAddBox } from "react-icons/md";
 import './App.css';
-import ClearTodo from './components/Clear_todo';
-import TodoItem from './components/Todo_item';
+import ClearTodo from './components/ClearTodo';
+import TodoItem from './components/TodoItem';
 
 function App() {
   const [pending, setPending] = useState(null)
